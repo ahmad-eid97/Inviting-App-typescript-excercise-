@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- DEFER FOR PARSE HTML ELEMENTS BEFORE RENDERING -->
+  <script src="./index.js" defer></script>  
+  <title>Inviting App</title>
+</head>
+<body>
+  
+  <div class="page">
+
+    <div class="wrapper">
+
+      <div class="adding">
+  
+        <input type="text" placeholder="Your Guest's name" id="input">
+  
+        <button id="addBtn">Add Guest</button>
+
+        <button id="updateBtn" class="hide">Update Guest</button>
+  
+      </div>
+  
+      <div class="firends-list">
+  
+        <ul id="list"></ul>
+  
+      </div>
+  
+      <div class="empty">
+        Guest list is empty. try to invite some friends...
+      </div>
+  
+    </div>
+
+  </div>
+
+</body>
+</html>
